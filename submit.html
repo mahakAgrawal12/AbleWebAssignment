@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Submit</title>
+<style>
+
+    
+.myForm {
+    /* height:100px; */
+font-family: "arial", sans-serif;
+font-size: 0.8em;
+}
+
+.myForm * {
+box-sizing: border-box;
+}
+
+.myForm label {
+padding: 0;
+/* font-weight: bold; */
+text-align: right;
+display: block;
+}
+
+.myForm input,
+.myForm select,
+.myForm textarea {
+margin-left: 2em;
+float: right;
+width: 20em;
+border: 1px solid #ccc;
+font-family: "arial";
+font-size: 0.9em;
+padding: 0.3em;
+/* margin-bottom: 3px; */
+background-color: rgba(128, 128, 128, 0.475);
+border-radius: 5px;
+}
+.myForm option{
+    background-color: white;
+    margin-bottom: 5px;
+}
+.myForm textarea {
+height: 120px;
+
+}
+.container{
+    /* display: flex; */
+    /* height: 100px; */
+    width: 900px;
+    margin: 50px 50px;
+/* justify-content: center; */
+font-size: xx-large;
+
+}
+option{
+    font-size: 18px;
+    /* height: 10px; */
+}
+.myForm button {
+color: white;
+width: 80px;
+background-color: rgb(16, 119, 160);
+padding: 1em;
+border-radius: 0.5em;
+border: none;
+font-weight: bold;
+margin-left: 40em;
+margin-top: 1.8em;
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+<form class="myForm">
+
+<p>
+    
+<label>Job Role*
+<select id="pickup_place" name="select...">
+<option value="" selected="selected">Select...</option>
+<option value="Business Development Executive" >Business Development Executive</option>
+<option value="Customer Support Voice" >Customer Support Voice</option>
+<option value="Customer Support Non-voice" >Customer Support Non-voice</option>
+<option value="Inside Sales" >Inside Sales</option>
+<option value="Field Sales" >Field Sales</option>
+<option value="Contest Writing" >Contest Writing</option>
+<option value="Digital Marketing" >Digital Marketing</option>
+<option value="Community Management" >Community Management</option>
+</select>
+</label> 
+</p>
+
+<p>
+    <label>Job Description*
+    <textarea name="description" maxlength="1000"></textarea>
+    </label>
+    </p>
+  
+  <br>
+  <br>
+<p>
+    
+<label>Place Of Work*
+<textarea name="Address" maxlength="600"></textarea>
+</label>
+</p>
+
+<br>
+<br>
+
+<p>
+    <label style="margin-right: 500px ;">Phone no for coordination*<br><p style="font-size: 10px;margin-left: 160px;margin-top: -10px; ;">your phone number is extremely safe with us. it is only <br>shared with oneperson in the team</p>
+    <input style="width:200px ;margin-right: 260px;margin-top: -70px;"   type="phone_number" name="phone_number">
+
+    </label>
+    </p>
+   
+<p>
+<!-- </div> -->
+<p><button>Submit</button></p>
+
+</form>
+</div>
+</body>
+</html>
